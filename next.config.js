@@ -11,7 +11,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';",
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; frame-src 'self';",
           },
           {
             key: 'Strict-Transport-Security',
@@ -19,7 +19,7 @@ const nextConfig = {
           },
           {
             key: 'X-Frame-Options',
-            value: 'DENY',
+            value: 'SAMEORIGIN',
           },
           {
             key: 'X-Content-Type-Options',
@@ -27,7 +27,7 @@ const nextConfig = {
           },
           {
             key: 'Referrer-Policy',
-            value: 'no-referrer',
+            value: 'strict-origin-when-cross-origin',
           },
           {
             key: 'Permissions-Policy',
