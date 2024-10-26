@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   output: 'standalone',
   env: {
-    CHOIR_NAME: process.env.CHOIR_NAME || '九州合唱団',
-    FOUNDATION_DATE: process.env.FOUNDATION_DATE || '2024年4月1日',
+    CHOIR_NAME: process.env.CHOIR_NAME || '合唱団名をここに入力',
+    FOUNDATION_DATE: process.env.FOUNDATION_DATE || '2025年4月1日',
   },
   async headers() {
     return [
