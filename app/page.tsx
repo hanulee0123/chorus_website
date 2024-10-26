@@ -9,8 +9,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Calendar, Mail, MapPin, Music } from 'lucide-react'
 
 export default function ChoirHomepage() {
-  const [choirName, setChoirName] = useState('九州合唱団')
-  const [foundationDate, setFoundationDate] = useState('2024年4月1日')
+  const [choirName, setChoirName] = useState('合唱団名をここに入力')
+  const [foundationDate, setFoundationDate] = useState('2025年4月1日')
 
   return (
     <div className="flex flex-col min-h-screen">
