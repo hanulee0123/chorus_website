@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export default function ConductorsPage() {
   const conductors = [
-    { id: 1, name: '山田太郎', image: '/placeholder.svg?height=200&width=200', bio: '東京音楽大学卒業。国内外で多数の合唱団を指揮。' },
-    { id: 2, name: '佐藤花子', image: '/placeholder.svg?height=200&width=200', bio: 'ウィーン国立音楽大学留学。オペラ指揮者としても活躍。' },
+    { id: 1, name: '山田太郎', image: '/conductors/conductor1.jpg', bio: '東京音楽大学卒業。国内外で多数の合唱団を指揮。' },
+    { id: 2, name: '佐藤花子', image: '/conductors/conductor2.jpg', bio: 'ウィーン国立音楽大学留学。オペラ指揮者としても活躍。' },
   ]
 
   return (
