@@ -34,12 +34,10 @@ export default function ChoirHomepage() {
         <section className="relative w-full h-[calc(100vh-4rem)] overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/site_main_image-I91oRhcfOSc8RoKUrXb4Su8L3xqwEA.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/site_main_image-I91oRhcfOScBRoKUrXb4Su8L3xqwEA.png"
               alt="合唱団のメンバーのシルエット"
               layout="fill"
               objectFit="cover"
-              quality={100}
-              priority
             />
           </div>
           <div className="absolute inset-0 bg-black bg-opacity-50" />
